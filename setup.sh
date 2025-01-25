@@ -59,6 +59,13 @@ git clone "$KERNEL_MODULE_REPO_URL" kernel/nothing/sm8475-modules
 git clone "$KERNEL_TREE_REPO_URL" kernel/nothing/sm8475-devicetrees
 echo "Kernel clone done"
 
+# KernelSU patch
+echo "Patching KernelSU"
+cd kernel/nothing/sm8475
+curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -
+cd ../../..
+echo "KernelSU patch done"
+
 # Display hal branches and prompt for selection
 echo "Cloning display hal"
 rm -rf hardware/qcom-caf/sm8450/display
