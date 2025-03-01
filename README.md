@@ -16,7 +16,7 @@ Welcome to the **Custom ROM Cloning Script** repository! This script simplifies 
 To get started, run the following command in your terminal:
 
 ```bash
-wget https://raw.githubusercontent.com/Pong-Development/setup_script/refs/heads/main/setup.sh && bash setup.sh
+wget https://raw.githubusercontent.com/alexandrusemina/setup_script/refs/heads/main/setup.sh && bash setup.sh
 ```
 
 ### Prerequisites
