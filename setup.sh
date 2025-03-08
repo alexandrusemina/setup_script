@@ -47,14 +47,14 @@ fi
 declare -A REPOS=(
     ["device/nothing/Pong"]="https://github.com/alexandrusemina/device_nothing_Pong.git"
     ["vendor/nothing/Pong"]="https://github.com/alexandrusemina/vendor_nothing_Pong.git"
-    ["kernel/nothing/sm8475"]="https://github.com/alexandrusemina/kernel_nothing_sm8475.git"
-    ["hardware/qcom-caf/sm8450/display"]="https://github.com/alexandrusemina/hardware_qcom-caf_sm8450_display.git"
-    ["hardware/qcom-caf/sm8450/audio/primary-hal"]="https://github.com/alexandrusemina/hardware_qcom_audio-ar.git"
-    ["hardware/qcom-caf/sm8450/audio/pal"]="https://github.com/alexandrusemina/vendor_qcom_opensource_arpal-lx.git"
-    ["hardware/qcom-caf/sm8450/audio/agm"]="https://github.com/alexandrusemina/vendor_qcom_opensource_agm.git"
-    ["device/qcom/sepolicy_vndr/sm8450"]="https://github.com/alexandrusemina/device_qcom_sepolicy_vndr.git"
-    ["packages/apps/ParanoidGlyphPhone2"]="https://github.com/alexandrusemina/packages_apps_ParanoidGlyph.git"
-    ["hardware/dolby"]="https://github.com/alexandrusemina/hardware_dolby.git"
+    ["kernel/nothing/sm8475"]="https://github.com/Pong-Development/kernel_nothing_sm8475.git"
+    ["hardware/qcom-caf/sm8450/display"]="https://github.com/Pong-Development/hardware_qcom-caf_sm8450_display.git"
+    ["hardware/qcom-caf/sm8450/audio/primary-hal"]="https://github.com/Pong-Development/hardware_qcom_audio-ar.git"
+    ["hardware/qcom-caf/sm8450/audio/pal"]="https://github.com/Pong-Development/vendor_qcom_opensource_arpal-lx.git"
+    ["hardware/qcom-caf/sm8450/audio/agm"]="https://github.com/Pong-Development/vendor_qcom_opensource_agm.git"
+    ["device/qcom/sepolicy_vndr/sm8450"]="https://github.com/Pong-Development/device_qcom_sepolicy_vndr.git"
+    ["packages/apps/ParanoidGlyphPhone2"]="https://github.com/Pong-Development/packages_apps_ParanoidGlyph.git"
+    ["hardware/dolby"]="https://github.com/Pong-Development/hardware_dolby.git"
 )
 
 # Function to clone a repository with error handling
