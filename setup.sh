@@ -55,6 +55,7 @@ declare -A REPOS=(
     ["device/qcom/sepolicy_vndr/sm8450"]="https://github.com/Pong-Development/device_qcom_sepolicy_vndr.git"
     ["packages/apps/ParanoidGlyphPhone2"]="https://github.com/Pong-Development/packages_apps_ParanoidGlyph.git"
     ["hardware/dolby"]="https://github.com/Pong-Development/hardware_dolby.git"
+    ["packages/apps/GlyphAdapter"]="https://github.com/Pong-Development/packages_apps_GlyphAdapter.git"
 )
 
 # Function to clone a repository with error handling
